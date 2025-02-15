@@ -1,3 +1,4 @@
+langgraph-cli
 langchain_community
 langchain-ollama
 langgraph
