@@ -1,0 +1,12 @@
+services:
+
+  app:
+    build:
+        context: ./
+        dockerfile: Dockerfile
+    container_name: agents-playground
+    command: sleep infinity
+    user: root
+    volumes:
+      - ./:/workspace/agents-playground
+    env_file: .env
